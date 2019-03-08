@@ -1,0 +1,99 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  background: url("img/bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+.bulb-container {
+  padding: 10vh;
+}
+.bulb {
+  
+  color: black;
+  position: relative;
+border-radius: 50%;
+width: 100%;
+height: auto;
+padding-top: 100%;
+  background: #bbb;
+  border-radius: 50%;
+}
+.bulb .eyes {
+  width: 100%;
+}
+.bulb .eyes * {
+  margin: 5vh;
+  margin-top: 10vh;
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  background-color: #657883;
+  border-radius: 50%;
+}
+.bulb .mouth {
+  margin: 0 auto;
+  margin-top: 4px;
+  width: 20vh;
+  height: 10vh;
+  background: #657883;
+  border: none;
+  border-radius: 30vh 30vh 10vh 10vh;
+  -moz-transition: all .51s;
+  -o-transition: all .51s;
+  -webkit-transition: all .51s;
+  transition: all .51s;
+}
+
+.bulb.light_up {
+  box-shadow: 0 -10px 100px #ffff00;
+  background: #ffff79;
+}
+.bulb.light_up .mouth {
+  background: #657883;
+  border: none;
+  border-radius: 10vh 10vh 30vh 30vh;
+}
+
+#light {
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 20%;
+  border: 2px #50e2c2 solid;
+  color: #50e2c2;
+  letter-spacing: 3px;
+}
+#light:hover {
+  background: #50e2c2;
+  color: white;
+}
+
+
+.transparent-bar {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.18) !important;
+}
+
+.transparent-card {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.23) !important;
+}

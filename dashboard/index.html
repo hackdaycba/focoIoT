@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="" style='background-image: url("img/bg.jpg")'>
+  <nav class="transparent-bar">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo brand-logo center">HACKDAY!</a>
+        
+      </div>
+    </nav>
+
+
+  <div class="row">
+
+      
+      <div class="col s12 m9">
+          <div class="card transparent-card">
+              <div class="card-content white-text">
+                <canvas id="chart"></canvas>
+              </div>
+          </div>
+        </div>
+
+
+
+    <div class="col s12 m3">
+      <div class="card transparent-card">
+          <div class="card-image bulb-container">
+              <div class="bulb" id="bulb"></div>
+          </div>
+          <div class="card-action">
+              <!-- Switch -->
+               <div class="switch">
+                   <label>
+                     Off
+                     <input id="light" type="checkbox">
+                     <span class="lever"></span>
+                     On
+                   </label>
+                </div>
+          </div>
+      </div>
+      <div class="card  yellow lighten-3 z-depth-5">
+          <div class="card-content">
+            <h1 class="center-align" id="temperature">24°C</h1>
+              
+          </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <!--  Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/Chart.min.js"></script> 
+  <script src="js/chartutils.js"></script> 
+  <script src="js/init.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/websocket.js"></script>
+
+  </body>
+</html>

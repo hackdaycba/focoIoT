@@ -1,0 +1,13 @@
+{ "wifi": { 
+    "ssid": "SSID",
+    "pass": "PASS"
+  },
+  "mqtt": {
+      "host": "localhost",
+      "port": 1883,
+      "user": "USER",
+      "pass": "PASS",
+      "client_id": "foquito",
+      "topic": "/foco/events"
+  }
+}
